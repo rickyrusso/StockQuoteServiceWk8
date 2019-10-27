@@ -19,7 +19,7 @@ public class HttpStockServiceTest {
     
     @Before
     public void setup() throws Exception {
-´        HttpStockService svc = new HttpStockService();
+        HttpStockService svc = new HttpStockService();
         
         untilStockDate = (GregorianCalendar)GregorianCalendar.getInstance();
         untilStockDate.setTimeInMillis(0);
